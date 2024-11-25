@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plant Search</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Sour+Gummy&display=swap');
+  </style>
+  <link rel="stylesheet" href="decorate.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>Plant Search</h1>
+  </header>
+
+  <form class="search-form" id="searchForm">
+    <input type="text" class="search-input" id="search" placeholder="Search plants...">
+    <button type="button" class="search-button" onclick="searchPlants()">Search</button>
+  </form>
+
+  <nav>
+    <ul id="alphabetNav"></ul>
+  </nav>
+
+  <div id="results"></div>
+  <div id="plantDetails" style="margin-top: 20px; padding: 10px; border: 1px solid #ccc; border-radius: 5px;"></div>
+  <h2>Search Results</h2>
+  <div id="resultContainer" style="margin-top: 20px; padding: 10px; border: 1px solid #ccc; border-radius: 5px;"></div>
+  <!-- Link the external JavaScript file -->
+  <script src="script.js"></script>
+  
+</body>
+
+</html>

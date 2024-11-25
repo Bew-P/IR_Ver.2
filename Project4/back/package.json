@@ -1,0 +1,17 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "main": "back.js",
+  "scripts": {
+    "start": "nodemon back.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.16.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7"
+  }
+}

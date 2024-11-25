@@ -1,0 +1,15 @@
+{
+  "name": "font",
+  "version": "1.0.0",
+  "main": "sever.js",
+  "scripts": {
+    "start": "nodemon sever.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7"
+  }
+}
